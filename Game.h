@@ -18,17 +18,17 @@ public:
     void update();
     void render();
 
-    const bool running();
+    bool running();
 
 private:
-    sf::RenderWindow* window;
+    sf::RenderWindow* window{};
     std::vector<Shapes> shapes;
-    sf::Event ev;
+    sf::Event ev{};
 
     const int WIDOW_WIDTH = 1000, WINDOW_HEIGHT = 500;
 
-    const int rectWidth = 50; // Фиксированная ширина прямоугольника
-    const int rectHeightMin = 50; // Минимальная высота прямоугольника
+    const int rectWidth = 50;
+    const int rectHeightMin = 50;
 
     std::vector<Shapes>& vectorShapes();
     void quickSort(std::vector<Shapes> &shapes);
@@ -36,6 +36,8 @@ private:
     void updateShapePositions();
     void initVariables();
     void initWindow();
+
+    void quickSort(std::vector<Shapes> &shapes, int low, int high);
 };
 
 

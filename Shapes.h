@@ -22,7 +22,7 @@ public:
     void initVariables();
 
     void update();
-    void render(sf::RenderTarget &target);
+    void render(sf::RenderTarget &target) const;
 
     sf::RectangleShape shape;
 

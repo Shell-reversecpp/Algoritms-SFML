@@ -20,7 +20,7 @@ void Shapes::update() {
 
 }
 
-void Shapes::render(sf::RenderTarget &target){
+void Shapes::render(sf::RenderTarget &target) const{
     target.draw(this->shape);
 }
 

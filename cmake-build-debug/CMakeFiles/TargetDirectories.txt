@@ -1,0 +1,3 @@
+/home/snake0x8/CLionProjects/Algoritms-SFML/cmake-build-debug/CMakeFiles/SFML_GAME.dir
+/home/snake0x8/CLionProjects/Algoritms-SFML/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/snake0x8/CLionProjects/Algoritms-SFML/cmake-build-debug/CMakeFiles/rebuild_cache.dir
